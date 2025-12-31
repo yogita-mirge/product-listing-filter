@@ -1,9 +1,9 @@
 const products = [
-  { name: "Mobile", category: "Electronics", price: 15000, image: "images/mobile.jpg" },
-  { name: "Laptop", category: "Electronics", price: 55000, image: "images/laptop.jpg" },
-  { name: "T-Shirt", category: "Clothing", price: 800, image: "images/tshirt.jpg" },
-  { name: "Jeans", category: "Clothing", price: 2000, image: "images/jeans.jpg" },
-  { name: "Book", category: "Books", price: 500, image: "images/book.jpg" }
+  { name: "Mobile", category: "Electronics", price: 15000, image: "mobile.jpg" },
+  { name: "Laptop", category: "Electronics", price: 55000, image: "laptop.jpg" },
+  { name: "T-Shirt", category: "Clothing", price: 800, image: "tshirt.jpg" },
+  { name: "Jeans", category: "Clothing", price: 2000, image: "jeans.jpg" },
+  { name: "Book", category: "Books", price: 500, image: "book.jpg" }
 ];
 
 function displayProducts(list) {
@@ -44,3 +44,4 @@ function applyFilters() {
 }
 
 displayProducts(products);
+
