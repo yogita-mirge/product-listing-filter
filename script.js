@@ -19,7 +19,6 @@ function displayProducts(list) {
     container.innerHTML += `
   <div class="product">
     <img src="${p.image}" alt="${p.name}">
-    class="product-img">
     <h3>${p.name}</h3>
     <p>Category: ${p.category}</p>
     <p>Price: ₹${p.price}</p>
@@ -45,5 +44,6 @@ function applyFilters() {
 }
 
 displayProducts(products);
+
 
 
