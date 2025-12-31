@@ -1,9 +1,9 @@
 const products = [
-  { name: "Mobile", category: "Electronics", price: 15000, image: "mobile.jpg" },
-  { name: "Laptop", category: "Electronics", price: 55000, image: "laptop.jpg" },
-  { name: "T-Shirt", category: "Clothing", price: 800, image: "tshirt.jpg" },
-  { name: "Jeans", category: "Clothing", price: 2000, image: "jeans.jpg" },
-  { name: "Book", category: "Books", price: 500, image: "book.jpg" }
+  { name: "Mobile", category: "Electronics", price: 15000, image: "image/mobile.jpg" },
+  { name: "Laptop", category: "Electronics", price: 55000, image: "image/laptop.jpg" },
+  { name: "T-Shirt", category: "Clothing", price: 800, image: "image/tshirt.jpg" },
+  { name: "Jeans", category: "Clothing", price: 2000, image: "image/jeans.jpg" },
+  { name: "Book", category: "Books", price: 500, image: "image/book.jpg" }
 ];
 
 function displayProducts(list) {
@@ -19,6 +19,7 @@ function displayProducts(list) {
     container.innerHTML += `
   <div class="product">
     <img src="${p.image}" alt="${p.name}">
+    class="product-img">
     <h3>${p.name}</h3>
     <p>Category: ${p.category}</p>
     <p>Price: ₹${p.price}</p>
@@ -44,4 +45,5 @@ function applyFilters() {
 }
 
 displayProducts(products);
+
 
